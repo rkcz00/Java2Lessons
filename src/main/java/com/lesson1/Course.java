@@ -2,9 +2,9 @@ package com.lesson1;
 
 public class Course {
 
-    private int level_1;
-    private int level_2;
-    private int level_3;
+    private final int level_1;
+    private final int level_2;
+    private final int level_3;
 
     public Course(int level_1, int level_2, int level_3) {
         this.level_1 = level_1;
